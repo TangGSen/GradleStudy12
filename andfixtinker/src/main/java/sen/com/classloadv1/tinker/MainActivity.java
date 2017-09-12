@@ -8,14 +8,15 @@ import java.io.File;
 
 import sen.com.classloadv1.R;
 
+
 public class MainActivity extends AppCompatActivity {
     private final String FILE_END = ".apk";
     private String mPathDir;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         mPathDir = getExternalCacheDir().getAbsolutePath() + File.separator + "tapatch" + File.separator;
         File pathDirFile = new File(mPathDir);
         if (mPathDir == null || !pathDirFile.exists()) {
@@ -26,14 +27,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void hasBug(View view) {
         int a = 10 / 1;
+
     }
 
     public void hasBug1() {
     }
     public void hasBug2() {
     }
-    public void hasBug3() {
-    }
+
+
     public void fixBug(View view) {
         TinkerManager.getInstance().loadPath(getPathName());
     }

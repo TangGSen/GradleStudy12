@@ -31,5 +31,6 @@ public class STinkerLinke extends ApplicationLike {
         super.onBaseContextAttached(base);
         //分包
         MultiDex.install(base);
+        TinkerManager.getInstance().initTinker(this);
     }
 }

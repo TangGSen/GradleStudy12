@@ -72,10 +72,10 @@ dependencies {
 
 ext {
     tinkerEnable = true
-    tinkerOldApkPath = "${bakPath}/andfixtinker-release-0912-18-27-37.apk"
+    tinkerOldApkPath = "${bakPath}/andfixtinker-release-0912-20-33-33.apk"
     tinkerID = "1.0"
-    tinkerApplyMappingPath = "${bakPath}/andfixtinker-release-0912-18-27-37-mapping.txt"
-    tinkerApplyResourcePath = "${bakPath}/andfixtinker-release-0912-18-27-37-R.txt"
+    tinkerApplyMappingPath = "${bakPath}/andfixtinker-release-0912-20-33-33-mapping.txt"
+    tinkerApplyResourcePath = "${bakPath}/andfixtinker-release-0912-20-33-33-R.txt"
 
 //    tinkerEnable = true
 //    tinkerOldApkPath = "${bakPath}/"
